@@ -1,6 +1,6 @@
 # Laser System 
 
-Welcome to the home page of the Laser System asset. 
+Welcome to the home page of the Laser System asset for Unity. 
 
 ## About the project
 
