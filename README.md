@@ -25,3 +25,9 @@ Anyone who wants to develop games in Unity that require a complete laser system 
 Keeping in mind that one size might not fit all, the system is designed so that the logic for *drawing* the beams / particles is completely decoupled from the logic of the *lasers*. So much so in fact that all these are present as separate scripts that are attached to the prefabs inside the project. 
 
 If you're just interested in learning how a system like this is implemented then the project itself and its documentation will prove very useful to you. Note that basic programming concepts and C# language constructs are not detailed inside the docs, however, links are included for the documentation. 
+
+## About the docs
+
+The latex reference is exported as a _pdf_ file. 
+
+See the html docs here.
