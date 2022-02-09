@@ -1,4 +1,4 @@
-# Laser System 
+# Laser System - front page and docs
 
 Welcome to the home page of the Laser System asset for Unity. 
 
