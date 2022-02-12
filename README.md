@@ -30,4 +30,4 @@ If you're just interested in learning how a system like this is implemented then
 
 The latex reference is exported as a _pdf_ file. 
 
-See the html docs starting from the _index.html_ file after downloading the _html_ folder.
+See the html docs starting from the _index.html_ file after downloading the _html-reference_ folder.
