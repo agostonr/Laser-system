@@ -33,3 +33,13 @@ The latex reference is exported as a _pdf_ file.
 The detailed documentation is exported as a _pdf_ file as well. 
 
 See the html docs starting from the _index.html_ file after downloading the _html-reference_ folder.
+
+## Setting up the project
+
+To improve physics performance the system only takes objects on the **LaserSystem** layer into account.
+**This can be changed in the emitter's SUPPORTED LAYERS field to suit your project's needs.** 
+To get you started faster, during the importing phase a script should create this layer for you if it does not exist already. If it does not happen, please let me know and create this layer manually inside Unity Editor. 
+
+All the included textures are 4K or 8K in the case of some more detailed normal maps, except particle textures where this would not make sense. This is to make sure the assets look correct in the case of close up shots, should you need those. Compress the textures into a lower resolution of you encounter performance problems on your particular platform. 
+
+To run the Play Mode automated tests you do not need to add the demo scenes to your build settings. The test assembly should be detected by Unity Test upon finishing import and all the tests should pass. If one or two tests fail, please run them again - there might have been some issues with the timings inside the tests due to varying frame rates, inspite of all the tests being constraned to a certain frame rate. 
