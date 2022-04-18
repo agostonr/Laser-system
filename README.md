@@ -36,9 +36,7 @@ See the html docs starting from the _index.html_ file after downloading the _htm
 
 ## Setting up the project
 
-To improve physics performance the system only takes objects on the **LaserSystem** layer into account.
-**This can be changed in the emitter's SUPPORTED LAYERS field to suit your project's needs.** 
-To get you started faster, during the importing phase a script should create this layer for you if it does not exist already. If it does not happen, please let me know and create this layer manually inside Unity Editor. 
+You can improve the performance of the raycasts by adding which layers the emitters should take into account. If left empty, all layers will be included in the raycasting process. 
 
 All the included textures are 4K or 8K in the case of some more detailed normal maps, except particle textures where this would not make sense. This is to make sure the assets look correct in the case of close up shots, should you need those. Compress the textures into a lower resolution of you encounter performance problems on your particular platform. 
 
